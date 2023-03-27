@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr ;
+    grid-template-rows: 1fr 2fr 1.5fr 1fr;
+    gap: 1rem;
+
+    grid-template-areas: " header header header"
+    " main main main"
+    " section section section "
+    "footer footer footer";
+}
+.body{
+    background-color: #d1a26d;
+}
+header{
+    grid-area: header;
+    background-color: #d1a26d;
+}
+
+.navbar{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+div{
+    background-color: #d1a26d;
+}
+main{
+    grid-area: main;
+    background-color: #d1a26d;
+}
+footer{
+    grid-area:footer ;
+    background-color: #d1a26d;
+}
+section{
+    grid-area: section;
+    background-color: #d1a26d;
+} 
+body{
+    background-color: #d1a26d;
+}
+/* fuentes font-family: 'IM Fell DW Pica', serif;
+font-family: 'Roboto', sans-serif;*/ 
+h1{
+    font-family: 'IM Fell DW Pica', serif; 
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+h2{
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 4px gray;
+} 
+h3{
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 29px; 
+    text-align: center;
+
+}
+dd{
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 100; 
+   text-decoration: underline;   
+} 
+dt{
+    font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 100;
+   text-decoration: underline;
+   
+}
+
+.contacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 400px;      
+}
+.barra-tareas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #d1a26d;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .item-tarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .item-tarea i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .item-tarea:hover {
+    background-color: #333;
+    color: #fff;
+  }
