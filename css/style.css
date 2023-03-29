@@ -18,9 +18,7 @@ header{
     text-decoration: none;
     color: black;
 }
-div{
-    
-}
+
 main{
     background-color: #d1a26d;
     
@@ -137,7 +135,7 @@ dt{
   .texto{
     text-decoration: none;
   }
-  @media screen and (max-width: 1039px) {
+  @media screen and (max-width:768px){
     .item-tarea{
         margin-left: 1px;
         display: flex;
@@ -153,4 +151,37 @@ dt{
         cursor: pointer;
         transition: all 0.3s ease-in-out;
     }
+  .img{
+    width: 800px;
+    height: 700px;
   }
+  .img-2{
+    width: 800px;
+    height: 700px;
+  }
+  }
+  @media screen and (max-width:320px){
+    .item-tarea{
+      margin-left: 1px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      background-color: #fff;
+      padding: 45px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+  }
+  .img{
+    width: 700px;
+    height: 600px;
+  }
+  .img-2{
+    width: 700px;
+    height: 600px;
+  }
+ }
