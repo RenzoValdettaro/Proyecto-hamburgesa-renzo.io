@@ -4,12 +4,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.img{
+  width: 730px;
+  height: 650px;
+}
+.img-2{
+  width: 730px;
+  height: 650px;
+}
+
 
 .body{
-    background-color: #d1a26d;
+    background-color:#d1a26d;
 }
 header{
-    
     background-color: #d1a26d;
 }
 
@@ -37,18 +45,21 @@ body{
 /* fuentes font-family: 'IM Fell DW Pica', serif;
 font-family: 'Roboto', sans-serif;*/ 
 h1{
+  background-color: #d1a26d;
     font-family: 'IM Fell DW Pica', serif; 
     font-size: 70px;
     text-align: center;
     text-transform: uppercase;
     }
 h2{
+  background-color: #d1a26d;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 50px;
     text-transform: uppercase;
     text-shadow: 10px 5px 4px gray;
 } 
 h3{
+  background-color: #d1a26d;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 29px; 
     text-align: center;
@@ -86,17 +97,16 @@ dt{
   }
   
   .item-tarea{
-    
-    margin-left: 1px;
+    margin-right:300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
     background-color: #fff;
-    padding: 100px;
+    padding: 60px;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -111,9 +121,7 @@ dt{
     background-color: #333;
     color: #fff;
   }
-  .carrusel{
-    display: flex;
-  }
+ 
   .item-dos{
     text-decoration: none;
     display: flex;
@@ -137,7 +145,7 @@ dt{
   }
   @media screen and (max-width:768px){
     .item-tarea{
-        margin-left: 1px;
+        margin-right: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -162,7 +170,7 @@ dt{
   }
   @media screen and (max-width:320px){
     .item-tarea{
-      margin-left: 1px;
+      margin-right:150px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -185,3 +193,19 @@ dt{
     height: 600px;
   }
  }
+ .container-fluid{
+  background-color:#d1a26d;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: #d1a26d;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+ }
+.carousel-fade{
+  margin-top: 10px;
+}
+.carousel-fade img{
+height: 65vh;
+}
