@@ -168,7 +168,7 @@ dt{
     height: 700px;
   }
   }
-  @media screen and (max-width:320px){
+  @media screen and (max-width:350px){
     .item-tarea{
       margin-right:150px;
       display: flex;
@@ -185,14 +185,19 @@ dt{
       transition: all 0.3s ease-in-out;
   }
   .img{
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 300px;
   }
   .img-2{
-    width: 700px;
-    height: 600px;
+    width: 400px;
+    height: 300px;
+  }
+  .img{
+    width: 400px;
+    height: 300px;
   }
  }
+
  .container-fluid{
   background-color:#d1a26d;
   display: grid;
@@ -208,4 +213,9 @@ dt{
 }
 .carousel-fade img{
 height: 65vh;
+width: 35vh;
+}
+.img-3{
+  width: 830px;
+  height: 750px;
 }
