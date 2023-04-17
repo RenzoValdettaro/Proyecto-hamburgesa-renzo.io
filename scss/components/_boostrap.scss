@@ -1,0 +1,17 @@
+.carousel-fade{
+    margin-top: 10px;
+  }
+  .carousel-fade img{
+  height: 65vh;
+  width: 35vh; 
+}
+.container-fluid{
+    background-color:#d1a26d;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #d1a26d;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+   }

@@ -1,0 +1,15 @@
+@mixin flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #d1a26d;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+@mixin display{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 400px; }
